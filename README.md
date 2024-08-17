@@ -24,7 +24,7 @@ Follow these instructions to set up and run the Idea Board application on your l
 
    ```bash
    git clone https://github.com/deeptirawat26/flask-idea-board.git
-   cd idea-board
+   
 2. **Create a Virtual Environment**
 
     ```bash
