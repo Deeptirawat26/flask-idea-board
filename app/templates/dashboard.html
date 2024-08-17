@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Dashboard</h1>
+    <h2>My Ideas</h2>
+    <ul>
+        {% for idea in ideas %}
+            <li>
+                <strong>{{ idea.title }}</strong><br>
+                <p>{{ idea.content }}</p> 
+                <p><small>Created on: {{ idea.created_at }}</small></p>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
